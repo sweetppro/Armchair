@@ -40,7 +40,7 @@ let package = Package(
         .target(
             name: "Armchair",
             dependencies: [],
-            path: "Sources"
+            path: "Source"
         ),
     ],
     swiftLanguageVersions: [
