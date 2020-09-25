@@ -28,7 +28,7 @@ import PackageDescription
 let package = Package(
     name: "Armchair",
     platforms: [
-        .iOS(.v8),
+        .iOS(.v13),
         .macOS(.v10_15),
         .tvOS(.v13),
         .watchOS(.v5)
@@ -44,6 +44,6 @@ let package = Package(
         ),
     ],
     swiftLanguageVersions: [
-        .version("5.1")
+        .version("5.3")
     ]
 )
